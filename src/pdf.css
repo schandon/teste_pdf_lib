@@ -1,0 +1,44 @@
+body
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+p
+{
+    font-family: helvetica;
+    font-size: 24px;
+    text-align: center;
+    margin: 25px;
+}
+  
+  .small {
+    font-family: helvetica;
+    font-size: 18px;
+    text-align: center;
+    margin: 25px;
+  }
+  
+  button {
+    background-color: #008CBA;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  button:hover
+  {
+    opacity: 90%;
+  }
+
+  button:active
+  {
+    opacity: 100%;
+  }
